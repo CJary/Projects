@@ -1,0 +1,6 @@
+Team Name      W         L         T      Win%      Pen%     Goals   Penalties       Player Name  Penalties
+Clarkson       2         4         0      0.33      6.00        11          37       Nik_Pokulok          6
+Cornell        2         4         0      0.33      5.00        15          33     John_McCarron          6
+Yale           3         3         0      0.50      5.00        10          31        Joel_Lowry          6
+Rensselaer     5         1         0      0.83      4.00        25          26       Colin_Dueck          5
+The most common penalty type is >>Hooking<<.
