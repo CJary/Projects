@@ -71,6 +71,8 @@ private:
     void initFonts();
     void initText();
     void initEnemies();
+    void initHitSounds();
+    void initBackground();
     void spawnEnemy();
 
 public:

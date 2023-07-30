@@ -7,28 +7,8 @@ Game::Game() {
     this->initFonts();
     this->initText();
     this->initEnemies();
-
-    // Load the sound buffer from file
-    if (!this->clickBuffer.loadFromFile("HitSounds/aimbooster_hit.ogg")) {
-        std::cout << "ERROR::GAME::Failed to load click sound!" << std::endl;
-    }
-
-    // Set the sound buffer to the sound object
-    this->clickSound.setBuffer(this->clickBuffer);
-    this->clickSound.setVolume(50);
-
-    // Load the background texture from file
-    if (!this->backgroundTexture.loadFromFile("Background/robloxcreation.png")) {
-        std::cout << "ERROR::GAME::Failed to load background texture!" << std::endl;
-    }
-
-    // Set the texture to the background sprite
-    this->backgroundSprite.setTexture(this->backgroundTexture);
-    this->backgroundSprite.setPosition(0.f, 0.f);
-    this->backgroundSprite.setScale(
-        static_cast<float>(this->window->getSize().x) / this->backgroundTexture.getSize().x,
-        static_cast<float>(this->window->getSize().y) / this->backgroundTexture.getSize().y
-    );
+    this->initHitSounds();
+    this->initBackground();
 
     loadScoresFromFile();
 }
@@ -163,6 +143,36 @@ void Game::initEnemies() {
     if (!this->circleTexture.loadFromFile("Ball/aimlab.png")) {
         std::cout << "ERROR::GAME::INITENEMIES::Failed to load circle image!" << "\n";
     }
+}
+
+
+void Game::initHitSounds()
+{
+    // Load the sound buffer from file
+    if (!this->clickBuffer.loadFromFile("HitSounds/aimbooster_hit.ogg")) {
+        std::cout << "ERROR::GAME::Failed to load click sound!" << std::endl;
+    }
+
+    // Set the sound buffer to the sound object
+    this->clickSound.setBuffer(this->clickBuffer);
+    this->clickSound.setVolume(50);
+}
+
+
+void Game::initBackground()
+{
+    // Load the background texture from file
+    if (!this->backgroundTexture.loadFromFile("Background/robloxcreation.png")) {
+        std::cout << "ERROR::GAME::Failed to load background texture!" << std::endl;
+    }
+
+    // Set the texture to the background sprite
+    this->backgroundSprite.setTexture(this->backgroundTexture);
+    this->backgroundSprite.setPosition(0.f, 0.f);
+    this->backgroundSprite.setScale(
+        static_cast<float>(this->window->getSize().x) / this->backgroundTexture.getSize().x,
+        static_cast<float>(this->window->getSize().y) / this->backgroundTexture.getSize().y
+    );
 }
 
 
