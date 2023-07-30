@@ -37,4 +37,16 @@ After everything is finished, you can just run the game and the game window will
 You just have to shoot as many targets as fast as possible to achieve your highest score
 given the time frame.
 
+
 ** TECHNICAL **
+The chosen data structure for this project is a hashmap due to its fast insertion 
+and deletion capabilities, essential for efficiently managing data, particularly 
+for frequent deletions in the game. Additionally, a set is utilized to store scores,
+as it handles duplicates and maintains order, making it easy to display information 
+on the screen using a reverse iteration.
+
+
+
+
+
+
