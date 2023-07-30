@@ -36,3 +36,5 @@ in the Game.cpp files, such as initEnemies, initFonts, and the Game Constructor.
 After everything is finished, you can just run the game and the game window will appear.
 You just have to shoot as many targets as fast as possible to achieve your highest score
 given the time frame.
+
+** TECHNICAL **
