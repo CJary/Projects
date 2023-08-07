@@ -41,7 +41,10 @@ are recorded, and the user's balance is promptly updated.
 and monitor their highest deposit amount.
 
 ** TECHNICAL **
-
+-Use system("clear"), system("cls") to clear terminal screen for better user experience
+-Created a base class for each User's account information
+-Used vector of vector to hold the board information and then a set to hold the position of the user
+entered
 
 
 
