@@ -1,0 +1,4 @@
+Client ID:
+Your client ID
+API Key:
+Your API Key
