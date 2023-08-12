@@ -3,9 +3,10 @@ Jary Chen
 *** Restaurant Explore ***
 
 -INTRODUCTION
-Welcome to this Python project that utilizes the Yelp API to search for and display restaurant information 
-based on user input. The project is implemented using the Tkinter library for creating the graphical 
-user interface (GUI) and the requests library for making API requests.
+Welcome to this Python project that utilizes the Yelp API to search for 
+and display restaurant information based on user input. The project is 
+implemented using the Tkinter library for creating the graphical user 
+interface (GUI) and the requests library for making API requests.
 
 -HOW TO USE IT
 To begin using this application, you'll need to install an integrated development 
@@ -27,6 +28,6 @@ be main.cpp.
 ** TECHNICAL **
 -Error Handling in cases where the request to the Yelp API didn't work
 -Using the Tkinter library to produce a themed window for users
--Updates content base on User's input
+-Updates content based on User's input
 
 
