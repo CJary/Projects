@@ -1,5 +1,3 @@
-# Projects
-
 Name: Jary Chen
 School: Rensselaer Polytechnic Institute (RPI)
 
